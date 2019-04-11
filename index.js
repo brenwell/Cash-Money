@@ -1,15 +1,15 @@
-import CashMoneyData from "./data";
+import PriceTagData from "./data";
 
 /**
  * Currency & number formatting helper
  *
  * @example
  *
- * const formatter = new CashMoney(Data)
+ * const formatter = new PriceTag(PriceTagData)
  * const options = formatter.setup("de-DE","EUR")
  * const formattedStr = formatter.localize(1234.56,true,true)
  */
-export default class Currency
+export default class PriceTag
 {
     /**
      * @typedef {Object} Options
@@ -24,9 +24,9 @@ export default class Currency
      * @param {object} data.defaults - the most common currency formatting
      * @param {object} data.locales - the locale fallback
      * @param {object} data.currencies - the alternative formatting
-     * @returns {Currency} for chaining
+     * @returns {PriceTag} for chaining
      */
-    constructor(data = CashMoneyData)
+    constructor(data = PriceTagData)
     {
         this.defaults = data.defaults
         this.locales = data.locales

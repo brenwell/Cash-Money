@@ -1,5 +1,5 @@
 {
-  "name": "cash-money",
+  "name": "price-tag",
   "version": "1.0.0",
   "description": "Super lean currency formatter",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brenwell/Cash-Money.git"
+    "url": "git+https://github.com/brenwell/PriceTag.git"
   },
   "keywords": [
     "currency",
@@ -19,7 +19,7 @@
   "author": "Brendon Blackwell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brenwell/cash-money/issues"
+    "url": "https://github.com/brenwell/price-tag/issues"
   },
-  "homepage": "https://github.com/brenwell/cash-money#readme"
+  "homepage": "https://github.com/brenwell/price-tag#readme"
 }

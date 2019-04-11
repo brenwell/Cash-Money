@@ -1,4 +1,4 @@
-# Cash Money
+# Price Tag
 
 A library for formatting currency based on currency code aswell as language codes. This library is designed to be small and fast but it sacrifices on initialization time and data readability. Therefore it is best practise to initialize the currency library as early as possible.
 
@@ -6,16 +6,16 @@ A library for formatting currency based on currency code aswell as language code
 ## Installation
 
 ```shell
-npm i cash-money
+npm i price-tag
 ```
 
 ## Usage
 
 ```javascript
-import CashMoney, {CashMoneyData} from 'cash-money'
+import PriceTag, {PriceTagData} from 'price-tag'
 
 // fill library with data
-const formatter = new CashMoney(CashMoneyData)
+const formatter = new PriceTag(PriceTagData)
 
 // set the language and currency codes
 let options = formatter.setup("de-DE","EUR")
