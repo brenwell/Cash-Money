@@ -1,5 +1,7 @@
 import PriceTagData from "./data";
 
+export { PriceTagData }
+
 /**
  * Currency & number formatting helper
  *
@@ -173,7 +175,7 @@ export default class PriceTag
      * @param {boolean} [show00] - should show `00` e.g. €13.00 = €13 but €12.10 = €12.10
      * @return {string} The localized representation of the given amount
      */
-    localize(amount, showSymbol, show00)
+    localize(amount, showSymbol = true, show00 = true)
     {
         if (amount === ``)
         {
